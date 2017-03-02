@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 768M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: cofely-uc2-nodered
+  disk_quota: 1024M
+  services:
+  - cofely-uc2-nodered-cloudantNoSQLDB
+#  env:
+#  NODE_MODULES_CACHE: false
